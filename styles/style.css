@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --logo-font: "Crimson Pro", serif;
+  --big-text-font: "Lora", serif;
+  --ui-font: "Montserrat", sans-serif;
+}
