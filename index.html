@@ -18,12 +18,18 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/script.js"></script>
     <title>This Interior</title>
   </head>
   <body>
     <div class="root">
       <nav class="nav-bar">
         <h1 class="logo">this interior</h1>
+        <div class="nav-bar__hamburger-menu" onclick="toggleState(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <ul class="nav-bar__nav-list">
           <li class="nav-bar__nav-item nav-bar__nav-active">
             <a href="#">Home</a>
